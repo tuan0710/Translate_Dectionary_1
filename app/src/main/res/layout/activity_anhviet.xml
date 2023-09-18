@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".anhviet">
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="365dp"
+        android:layout_height="52dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="99dp"
+        android:layout_marginEnd="22dp"
+        android:contentDescription="@string/app_name" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="132dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="306dp"
+        android:layout_marginEnd="97dp"
+        app:srcCompat="@drawable/ic_launcher_foreground"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="376dp" />
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="451dp"
+        android:layout_marginEnd="131dp"
+        android:text="home"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="558dp" />
+
+    <EditText
+        android:id="@+id/txtViet"
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginEnd="47dp"
+        android:hint="Việt..."
+        android:minHeight="48dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/txtAnh2"
+        android:layout_width="222dp"
+        android:layout_height="28dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="168dp"
+        android:layout_marginEnd="93dp"
+        android:minHeight="48dp"
+        android:text="Nghĩa tiếng Việt của từ:"
+        android:textAlignment="center"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/txtAnh3"
+        android:layout_width="222dp"
+        android:layout_height="28dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="262dp"
+        android:layout_marginEnd="93dp"
+        android:minHeight="48dp"
+        android:text="Hình ảnh minh họa:"
+        android:textAlignment="center"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/txtAnh"
+        android:layout_width="wrap_content"
+        android:layout_height="27dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="71dp"
+        android:layout_marginEnd="206dp"
+        android:minHeight="48dp"
+        android:text="Từ tiếng Anh:"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/txtAnh4"
+        android:layout_width="wrap_content"
+        android:layout_height="27dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="114dp"
+        android:minHeight="48dp"
+        android:text="Anh - Việt"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+</RelativeLayout>
